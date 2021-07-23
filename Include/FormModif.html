@@ -1,0 +1,33 @@
+<form class="changement" action="Animations.php" method="post">
+  <legend class="modif">Veuillez ne réécrire que les champs à modifier : </legend>
+  <table class="modif">
+    <tr class="modif">
+      <td>Ancien Code Animation (Obligatoire) :  <br> <input type="text" name="Oldcode" maxlength="8"></td>
+      <td>Nouveau Code Animation : <br> <input type="text" name="newcode" maxlength="6"></td>
+    </tr>
+    <tr class="modif">
+      <td>Code Type Animation :  <br><input type="text" name="typeM" value="" maxlength="5"></td>
+      <td>Nom Animation :  <br><input type="text" name="nomM" value="" maxlength="40"></td>
+    </tr>
+    <tr class="modif">
+      <td>Date de Création : <br> <input type="date" name="datecréaM" value=""></td>
+      <td>Date de Validité : <br> <input type="date" name="datevalidM" value=""></td>
+    </tr>
+    <tr class="modif">
+      <td>Duree Animation : <br> <input type="number" name="duréeM" value="" max="99"></td>
+      <td>Age Limite : <br> <input type="number" name="ageM" value="" max="99"></td>
+    </tr>
+    <tr class="modif">
+      <td>Tarif : <br> <input type="number" name="tarifM" value="" max="99" step='0.01'></td>
+      <td>Nombre de Place : <br> <input type="number" name="placeM" value="" max="99"></td>
+    </tr>
+    <tr class="modif">
+      <td>Description : <br> <textarea name="descriM" rows="3" cols="35" maxlength="200"></textarea></td>
+      <td>Commentaire : <br> <textarea name="comM" rows="3" cols="35" maxlength="255"></textarea> </td>
+    </tr>
+    <tr class="modif">
+        <td>Difficulté :  <br> <textarea name="diffiM" rows="3" cols="35" maxlength="40"></textarea></td>
+        <td><input class="bouton" type="submit" name="Modifier" value="Modifier"></td>
+    </tr>
+  </table>
+</form>

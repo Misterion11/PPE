@@ -1,0 +1,29 @@
+<form class="changement" action="Activ.php" method="post">
+  <legend class="modif">Veuillez ne réécrire que les champs à modifier : </legend>
+  <table>
+    <tr class="modif">
+      <td>Ancien Numéro Activité (Obligatoire) :  <br> <input type="number" name="Oldnum"></td>
+      <td>Nouveau Numéro Activité : <br> <input type="number" name="newnum"></td>
+    </tr>
+    <tr class="modif">
+      <td>Code Animation :  <br><input type="text" name="CodeMA" value="" maxlength="8"></td>
+      <td>Code Etat Activité :  <br><input type="text" name="EtatMA" value="" maxlength="2"></td>
+    </tr>
+    <tr class="modif">
+      <td>Date Activité : <br> <input type="date" name="DateActiMA" value=""></td>
+      <td>Heure RDV Activité : <br> <input type="time" name="HeureRDVActiMA" value=""></td>
+    </tr>
+    <tr class="modif">
+      <td>Prix Activité : <br> <input type="number" name="PrixActiMA" value=""></td>
+      <td>Heure Début Activité : <br> <input type="time" name="HeureDebActiMA" value=""></td>
+    </tr>
+    <tr class="modif">
+      <td>Heure Fin activité : <br> <input type="time" name="HeureFinActiMA" value=""></td>
+      <td>Nom Responsable : <br> <input type="text" name="NomRespMA" value="" maxlength="40"></td>
+    </tr>
+    <tr class="modif">
+      <td>Prénom Responsable : <br> <input type="text" name="PrénomRespMA" maxlength="20"></td>
+      <td><input class="bouton" type="submit" name="ModifierActi" value="Modifier"></td>
+    </tr>
+  </table>
+</form>
